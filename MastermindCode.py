@@ -70,5 +70,6 @@ def testCode(solution, guessNum):
 			print ('your guess has', rightSpot, 'in the correct spot and',rightNumWrongSpot, 'with the right number in the wrong spot')
 	if (guessNum==10):
 		print("You lost the game after 10 guesses you did not get the code.")
-
+		print("The Correct code was", solution)
+		
 testCode(codeMaker(),guessNum)
